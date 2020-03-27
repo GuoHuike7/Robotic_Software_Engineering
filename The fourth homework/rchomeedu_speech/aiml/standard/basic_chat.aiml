@@ -1,0 +1,63 @@
+<aiml version="1.0.1" encoding="UTF-8">
+<!-- basic_chat.aiml -->
+
+    <category>
+        <pattern>HELLO</pattern>
+        <template>
+            Well, hello!
+        </template>
+    </category>
+    
+    <category>
+        <pattern>WHAT IS YOUR NAME</pattern>
+        <template>
+            My name is casie!
+        </template>
+    </category>
+
+    <category>
+        <pattern>HOW OLD ARE YOU</pattern>
+        <template>
+            I'm ten.
+        </template>
+    </category>
+    
+    <category>
+        <pattern>WHAT DO YOU LIKE</pattern>
+        <template>
+            I like play computer!
+        </template>
+    </category>
+
+    <category>
+        <pattern>I WANT TO MAKE FRIENDS WITH YOU</pattern>
+        <template>
+            Me too!
+        </template>
+    </category>
+    
+    <category>
+        <pattern>I LIKE YOU VERY MUCH</pattern>
+        <template>
+            Thank you!
+        </template>
+    </category>
+
+<category>
+    <pattern>ONE TIME I *</pattern>
+    <template>
+        <random>
+            <li>Go on.</li>
+            <li>How old are you?</li>
+            <li>Be more specific.</li>
+            <li>I did not know that.</li>
+            <li>Are you telling the truth?</li>
+            <li>I don't know what that means.</li>
+            <li>Try to tell me that another way.</li>
+            <li>Are you talking about an animal, vegetable or mineral?</li>
+            <li>What is it?</li>
+        </random>
+    </template>
+</category>
+    
+</aiml>
