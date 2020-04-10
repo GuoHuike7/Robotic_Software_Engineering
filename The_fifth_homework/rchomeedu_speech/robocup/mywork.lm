@@ -1,0 +1,110 @@
+Language model created by QuickLM on Thu Apr  9 23:18:02 EDT 2020
+Copyright (c) 1996-2010 Carnegie Mellon University and Alexander I. Rudnicky
+
+The model is in standard ARPA format, designed by Doug Paul while he was at MITRE.
+
+The code that was used to produce this language model is available in Open Source.
+Please visit http://www.speech.cs.cmu.edu/tools/ for more information
+
+The (fixed) discount mass is 0.5. The backoffs are computed using the ratio method.
+This model based on a corpus of 12 sentences and 23 words
+
+\data\
+ngram 1=23
+ngram 2=34
+ngram 3=30
+
+\1-grams:
+-0.9853 </s> -0.3010
+-0.9853 <s> -0.2452
+-1.4624 A -0.2780
+-2.0645 ARE -0.2973
+-2.0645 CENTER -0.2536
+-2.0645 COOL -0.2536
+-1.4624 GAME -0.2536
+-2.0645 HELLO -0.2536
+-2.0645 LET -0.2973
+-2.0645 ME -0.2536
+-2.0645 OK -0.2536
+-2.0645 ON -0.2973
+-1.7634 PHOTO -0.2536
+-1.5873 PLAY -0.2660
+-2.0645 PLEASE -0.2973
+-2.0645 SIT -0.2973
+-2.0645 SO -0.2973
+-1.4624 TAKE -0.2700
+-2.0645 THANK -0.2935
+-2.0645 THE -0.2973
+-2.0645 US -0.2858
+-2.0645 WITH -0.2973
+-1.7634 YOU -0.2494
+
+\2-grams:
+-1.3802 <s> HELLO 0.0000
+-1.3802 <s> LET 0.0000
+-1.3802 <s> OK 0.0000
+-0.9031 <s> PLAY 0.0000
+-1.3802 <s> PLEASE 0.0000
+-0.9031 <s> TAKE 0.0000
+-1.3802 <s> THANK 0.0000
+-1.3802 <s> YOU -0.1761
+-0.6021 A GAME 0.0000
+-0.6021 A PHOTO 0.0000
+-0.3010 ARE SO 0.0000
+-0.3010 CENTER </s> -0.3010
+-0.3010 COOL </s> -0.3010
+-0.3010 GAME </s> -0.3010
+-0.3010 HELLO </s> -0.3010
+-0.3010 LET US 0.0000
+-0.3010 ME </s> -0.3010
+-0.3010 OK </s> -0.3010
+-0.3010 ON THE 0.0000
+-0.3010 PHOTO </s> -0.3010
+-0.7782 PLAY A -0.1761
+-0.7782 PLAY GAME 0.0000
+-0.7782 PLAY WITH 0.0000
+-0.3010 PLEASE SIT 0.0000
+-0.3010 SIT ON 0.0000
+-0.3010 SO COOL 0.0000
+-0.4260 TAKE A 0.0000
+-0.9031 TAKE GAME 0.0000
+-0.3010 THANK YOU -0.1761
+-0.3010 THE CENTER 0.0000
+-0.3010 US TAKE -0.0969
+-0.3010 WITH ME 0.0000
+-0.6021 YOU </s> -0.3010
+-0.6021 YOU ARE 0.0000
+
+\3-grams:
+-0.3010 <s> HELLO </s>
+-0.3010 <s> LET US
+-0.3010 <s> OK </s>
+-0.7782 <s> PLAY A
+-0.7782 <s> PLAY GAME
+-0.7782 <s> PLAY WITH
+-0.3010 <s> PLEASE SIT
+-0.4771 <s> TAKE A
+-0.7782 <s> TAKE GAME
+-0.3010 <s> THANK YOU
+-0.3010 <s> YOU ARE
+-0.3010 A GAME </s>
+-0.3010 A PHOTO </s>
+-0.3010 ARE SO COOL
+-0.3010 LET US TAKE
+-0.3010 ON THE CENTER
+-0.3010 PLAY A GAME
+-0.3010 PLAY GAME </s>
+-0.3010 PLAY WITH ME
+-0.3010 PLEASE SIT ON
+-0.3010 SIT ON THE
+-0.3010 SO COOL </s>
+-0.7782 TAKE A GAME
+-0.4771 TAKE A PHOTO
+-0.3010 TAKE GAME </s>
+-0.3010 THANK YOU </s>
+-0.3010 THE CENTER </s>
+-0.3010 US TAKE A
+-0.3010 WITH ME </s>
+-0.3010 YOU ARE SO
+
+\end\
